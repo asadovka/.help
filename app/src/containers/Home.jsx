@@ -12,6 +12,7 @@ class Home extends Component {
                 <p><Link to='/create' >Create </Link></p>
                 <p><Link to='/open' > - How to open IPFS link </Link></p>
                 <p><Link to='/ipfs' > - How to add own IPFS node </Link></p>
+                <p><Link to='/eth' > - How to add own ETH node </Link></p>
             </div>
         );
     }
