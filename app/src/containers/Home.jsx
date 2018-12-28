@@ -8,11 +8,10 @@ class Home extends Component {
         return (
             <div className={styles.container}>
                 Links:
-                <p><Link to='/deploy' >Deploy </Link></p>
-                <p><Link to='/create' >Create </Link></p>
                 <p><Link to='/open' > - How to open IPFS link </Link></p>
                 <p><Link to='/ipfs' > - How to add own IPFS node </Link></p>
                 <p><Link to='/eth' > - How to add own ETH node </Link></p>
+                <p><Link to='/create' > - How to create an app </Link></p>
             </div>
         );
     }
