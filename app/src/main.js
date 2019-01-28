@@ -11,6 +11,7 @@ import Ipfs from "./containers/Ipfs";
 import Eth from "./containers/Eth";
 import Favourites from "./containers/Favourites";
 import Switch from "./containers/Switch";
+import Link from "./containers/Link";
 
 console.log(Home);
 
@@ -24,6 +25,7 @@ ReactDOM.render(
             <Route path='/Eth' component={Eth}/>
             <Route path='/Favourites' component={Favourites}/>
             <Route path='/Switch' component={Switch}/>
+            <Route path='/Link' component={Link}/>
             <IndexRoute component={Home}/>
         </Route>
     </Router>
